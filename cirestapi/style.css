@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 991px){
+  #headerarea{
+    width:100%;
+  }
+  #mainarea{
+    width: 31%;
+    margin: 10px;
+    float: left;
+  }
+  .imgheader{
+    width: 100%;
+  }
+  .photo{
+    width: 300px;
+    border-radius: 100%;
+    margin: 10px;
+    float: left;
+    border: 5pt solid black;
+  }
+  .backgroundarea{
+    background-color: orange;
+    width: 340px;
+    float: left;
+    margin-bottom: 4%;
+  }
+  h1{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    font-size: 40px;
+    font-family: Calibri;
+    color: orange;
+  }
+  p{
+    clear: both;
+  }
+}   
+
+@media screen and (max-width: 991px) and (min-width: 640px){
+  #headerarea{
+    width:100%;
+  }
+  #mainarea{
+    width: 100%;
+    margin: 2%;
+    float: left;
+  }
+  .imgheader{
+    width: 100%;
+  }
+  .photo{
+    width: 250px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 5pt solid black;
+    float: left;
+  }
+  .backgroundarea{
+    background-color: blue;
+    width: 285px;
+    float: left;
+    margin-right: 10px;
+  }
+  h1{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    font-family: Calibri;
+    color: blue;
+  }
+  p{
+    float: left;
+    position: absolute;
+    left: 42%;
+  }
+}
+
+@media screen and (max-width: 640px){
+  #headerarea{
+    width:100%;
+  }
+  #mainarea{
+    width: 100%;
+    margin: 3%;
+  }
+  .imgheader{
+    width: 100%;
+  }
+  .photo{
+    width: 400px;
+    margin: 4%;
+    border: 5pt solid black;
+    text-align: center;
+  }
+  .backgroundarea{
+    background-color: red;
+    width: 450px;
+  }
+  h1{
+    position: absolute;
+    top: 75px;
+    font-size: 25px;
+    right: 200px;
+    font-family: Calibri;
+    color: red;
+  }
+  p{
+    margin-right: 8%;
+  }
+}
